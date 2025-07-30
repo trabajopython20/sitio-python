@@ -1,0 +1,256 @@
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom right, #86b5db, #205cdf);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 30px;
+            background-color: #030435;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .header-img {
+            margin-top: 100px;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header-title {
+            font-size: 2.5em;
+            color: #ffffff;
+            margin-bottom: 15px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .nav-btn {
+          background-color: #03102b;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+           background-color: #03102b;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: linear-gradient(135deg,#e4d50d, #e0cb0d);
+            transform: translateY(-2px);
+            background-color: #03102b;
+        }
+
+        .nav-btn.active {
+            background: linear-gradient(45deg, #3776ab, #173ada);
+            color: white;
+            font-weight: bold;
+        }
+
+        .section {
+            background: linear-gradient(135deg,#205cdf 25%, #205cdf 25%, #e6e20b 50%, #205cdf 75%, #205cdf 100%);
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            display: none;
+            color: white;
+            text-align: left;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #d9dad3;
+            font-size: 2.2em;
+        }
+
+        h2 {
+            color: #cfcfce;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: #dadddf;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+             color: #e5e6e0;
+            line-height: 1.6;
+        }
+
+        .code-box {
+            background: #e4e4e2;
+            color: #333;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+
+        .question {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .question-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+             color: #e0e0dd;
+        }
+
+        .answer-options {
+            margin: 10px 0;
+        }
+
+        .answer-options label {
+            display: block;
+            margin: 5px 0;
+            cursor: pointer;
+             color: #e7e7e3;
+        }
+
+        .exercise {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .exercise-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .check-btn {
+            background: #27ae60;
+            color: #ddddd8;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+
+        .check-btn:hover {
+            background: #219a52;
+        }
+
+        .result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .correct {
+            background: #000000;
+            color: #155724;
+        }
+
+        .incorrect {
+            background: #cacac8;
+            color: #721c24;
+        }
+        .horizontal-menu {
+                    background-color: #030435;
+                    padding: 0;
+                    margin: 20px 0;
+                }
+                
+                .menu-list {
+                    list-style: none;
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    justify-content: center;
+                }
+                
+                .menu-item {
+                    color: white;
+                    text-decoration: none;
+                    padding: 15px 20px;
+                    display: block;
+                    transition: background-color 0.3s ease;
+                }
+                
+                .menu-item:hover {
+                    background-color: #333;
+                }
+                
+                .menu-item.active {
+                    background-color: #555;
+                }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #ebebe7;
+        }
+
+        strong {
+            color: #dadddd;
+        }
+        
+        footer {
+            background-color: #03102b;
+            background-color: #e5e7eb;
+            padding: 20px 10px;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 14px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        footer a {
+            background-color: #03102b;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            text-decoration: none;
+            margin: 0 8px;
+            font-weight: bold;
+        }
+        
+        footer a:hover {
+            background-color: #03102b;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            text-decoration: underline;
+        }

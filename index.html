@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python: Lenguaje de Programación</title>
+    <link rel="stylesheet" href="trabajophyton.css">
+    <script src="script.js" defe></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="Copilot_20250730_075406.png" alt="imagen de python" class="header-img">
+            
+            <!-- Menú horizontal interactivo -->
+            <nav class="horizontal-menu">
+                <ul class="menu-list">
+                    <li><a href="#" class="menu-item active" onclick="showSection('inicio')">Inicio</a></li>
+                    <li><a href="#" class="menu-item" onclick="showSection('introduccion')">Introducción</a></li>
+                    <li><a href="#" class="menu-item" onclick="showSection('historia')">Historia</a></li>
+                    <li><a href="#" class="menu-item" onclick="showSection('caracteristicas')">Características</a></li>
+                    <li><a href="#" class="menu-item" onclick="showSection('quiz')">Evaluación</a></li>
+                    <li><a href="#" class="menu-item" onclick="showSection('ejercicios')">Ejercicios</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- INICIO -->
+        <div id="inicio" class="section active">
+            <h1>Bienvenidos a mi sitio web</h1>
+            <h2>Hoy aprenderemos muchas cosas relacionadas sobre Python</h2>
+            
+            <p>Python es uno de los lenguajes de programación más populares y versátiles del mundo. Su sintaxis simple y legible lo convierte en la opción perfecta tanto para principiantes como para desarrolladores experimentados.</p>
+            
+            <h3>¿Qué encontrarás en este sitio?</h3>
+            <p>En esta plataforma descubrirás los conceptos fundamentales de Python, desde variables y estructuras de datos hasta programación orientada a objetos y desarrollo de aplicaciones web.</p>
+            
+            <h3>¿Por qué elegir Python?</h3>
+            <p>Python se utiliza en múltiples campos como desarrollo web, ciencia de datos, inteligencia artificial, automatización y mucho más. Empresas como Google, Netflix, Instagram y Spotify confían en Python para sus aplicaciones.</p>
+            
+            <h3>Lo que aprenderás:</h3>
+            <p>- Sintaxis básica y variables</p>
+            <p>- Estructuras de control (if, for, while)</p>
+            <p>- Desarrollo de proyectos prácticos</p>
+
+            <h1>¡Comencemos!</h1>
+        </div>
+
+        <!-- INTRODUCCIÓN -->
+        <div id="introduccion" class="section">
+            <h1>Python: Lenguaje de Programación</h1>
+            
+            <h2>¿Qué es Python?</h2>
+            <p>Python es un lenguaje de programación de alto nivel, interpretado y de propósito general. Fue creado por Guido van Rossum y su primera versión fue lanzada en 1991. Python se caracteriza por tener una sintaxis clara y legible, lo que lo hace ideal para principiantes y profesionales.</p>
+
+            <h2>¿De qué se trata Python?</h2>
+            <p>Python es un lenguaje que enfatiza la legibilidad del código y permite a los programadores expresar conceptos en menos líneas de código que otros lenguajes como C++ o Java. Se basa en la filosofía de que "debería haber una manera obvia de hacer las cosas".</p>
+
+            <h3>Filosofía de Python</h3>
+            <p>Python sigue el principio de "El Zen de Python", que incluye:</p>
+            <ul>
+                <li>Hermoso es mejor que feo</li>
+                <li>Explícito es mejor que implícito</li>
+                <li>Simple es mejor que complejo</li>
+                <li>La legibilidad cuenta</li>
+            </ul>
+
+            <h2>¿Cómo funciona Python?</h2>
+            <p>Python es un lenguaje interpretado, lo que significa que el código se ejecuta línea por línea a través de un intérprete, en lugar de ser compilado a código máquina antes de la ejecución.</p>
+
+            <h3>Proceso de ejecución:</h3>
+            <p><strong>1. Escritura del código:</strong> Se escribe en archivos con extensión .py</p>
+            <p><strong>2. Interpretación:</strong> El intérprete de Python lee y ejecuta el código</p>
+            <p><strong>3. Ejecución:</strong> Las instrucciones se procesan y producen resultados</p>
+
+            <div class="code-box"># Ejemplo básico de Python
+print("Hola, mundo!")
+
+# Variables
+nombre = "Juan"
+edad = 20
+
+# Operaciones
+suma = 10 + 5
+print(f"La suma es: {suma}")</div>
+
+            <h2>Aplicaciones de Python</h2>
+            <ul>
+                <li><strong>Desarrollo web:</strong> Frameworks como Django y Flask</li>
+                <li><strong>Ciencia de datos:</strong> Bibliotecas como NumPy, Pandas, Matplotlib</li>
+                <li><strong>Inteligencia artificial:</strong> TensorFlow, PyTorch</li>
+                <li><strong>Automatización:</strong> Scripts para tareas repetitivas</li>
+                <li><strong>Desarrollo de juegos:</strong> Pygame</li>
+                <li><strong>Aplicaciones de escritorio:</strong> Tkinter, PyQt</li>
+            </ul>
+        </div>
+
+        <!-- HISTORIA -->
+        <div id="historia" class="section">
+            <h1>Historia de Python</h1>
+
+            <h2>Los Orígenes (1989-1991)</h2>
+            <p>Python fue concebido a finales de los años 80 por Guido van Rossum en el Centro para las Matemáticas y la Informática (CWI) en los Países Bajos. Van Rossum quería crear un lenguaje que fuera fácil de leer y que requiriera menos líneas de código.</p>
+
+            <h2>Cronología Importante</h2>
+            <p><strong>1989:</strong> Guido van Rossum comienza el desarrollo de Python durante las vacaciones de Navidad.</p>
+            <p><strong>1991:</strong> Se publica la primera versión de Python (0.9.0) en el grupo de noticias alt.sources.</p>
+            <p><strong>1994:</strong> Se lanza Python 1.0 con nuevas características como lambda, map, filter y reduce.</p>
+            <p><strong>2000:</strong> Python 2.0 incluye nuevas características como comprensiones de lista y garbage collection.</p>
+            <p><strong>2008:</strong> Python 3.0 (Python 3000) se lanza con cambios importantes que no son compatibles con versiones anteriores.</p>
+            <p><strong>2020:</strong> Python 2 llega al final de su vida útil, y Python 3 se convierte en la única versión activa.</p>
+
+            <h2>¿Por qué se llama Python?</h2>
+            <p>Contrario a lo que muchos piensan, Python no fue nombrado por la serpiente. Guido van Rossum era fan del grupo de comedia británico "Monty Python's Flying Circus", y decidió nombrar su lenguaje en honor a ellos.</p>
+
+            <h2>Filosofía de Desarrollo</h2>
+            <p>Van Rossum fue el "Dictador Benevolente de por Vida" (BDFL) de Python hasta 2018, cuando decidió retirarse de esa posición. Su filosofía era mantener Python simple, legible y fácil de usar.</p>
+
+            <h2>Crecimiento y Popularidad</h2>
+            <p>Python ha experimentado un crecimiento explosivo desde 2010, especialmente en áreas como:</p>
+            <ul>
+                <li>Ciencia de datos y análisis</li>
+                <li>Inteligencia artificial y machine learning</li>
+                <li>Desarrollo web</li>
+                <li>Educación en programación</li>
+            </ul>
+
+            <p>Según el índice TIOBE, Python se ha convertido en uno de los lenguajes de programación más populares del mundo.</p>
+        </div>
+
+        <!-- CARACTERÍSTICAS -->
+        <div id="caracteristicas" class="section">
+            <h1>Características de Python</h1>
+
+            <h2>Características Principales</h2>
+
+            <h3>1. Sintaxis Simple y Clara</h3>
+            <p>Python utiliza indentación para definir bloques de código, lo que hace que sea visualmente más limpio y fácil de leer.</p>
+            <div class="code-box"># Ejemplo de sintaxis clara
+if edad >= 18:
+    print("Es mayor de edad")
+else:
+    print("Es menor de edad")</div>
+
+            <h3>2. Lenguaje Interpretado</h3>
+            <p>No necesita compilación previa. El código se ejecuta directamente línea por línea.</p>
+
+            <h3>3. Tipado Dinámico</h3>
+            <p>No es necesario declarar el tipo de las variables. Python determina automáticamente el tipo.</p>
+            <div class="code-box"># Python determina automáticamente los tipos
+numero = 42        # int
+texto = "Hola"     # string
+decimal = 3.14     # float
+lista = [1, 2, 3]  # list</div>
+
+            <h3>4. Multiplataforma</h3>
+            <p>Python funciona en Windows, macOS, Linux y muchos otros sistemas operativos.</p>
+
+            <h3>5. Amplia Biblioteca Estándar</h3>
+            <p>Python incluye una extensa biblioteca estándar que cubre desde operaciones matemáticas hasta desarrollo web.</p>
+
+            <h3>6. Orientado a Objetos</h3>
+            <p>Python soporta programación orientada a objetos, pero también permite otros paradigmas como programación funcional.</p>
+            <div class="code-box"># Ejemplo de clase en Python
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+    
+    def saludar(self):
+        return f"Hola, soy {self.nombre}"
+
+# Uso de la clase
+persona1 = Persona("Ana", 25)
+print(persona1.saludar())</div>
+
+            <h3>7. Extensible</h3>
+            <p>Se puede integrar fácilmente con otros lenguajes como C, C++ y Java.</p>
+
+            <h3>8. Gran Comunidad</h3>
+            <p>Python tiene una comunidad muy activa que contribuye con bibliotecas y frameworks.</p>
+
+            <h2>Ventajas de Python</h2>
+            <ul>
+                <li>Fácil de aprender y usar</li>
+                <li>Código legible y mantenible</li>
+                <li>Desarrollo rápido</li>
+                <li>Gran cantidad de bibliotecas disponibles</li>
+                <li>Soporte multiplataforma</li>
+                <li>Comunidad activa y servicial</li>
+            </ul>
+
+            <h2>Desventajas de Python</h2>
+            <ul>
+                <li>Puede ser más lento que lenguajes compilados</li>
+                <li>Mayor consumo de memoria</li>
+                <li>No es ideal para desarrollo móvil nativo</li>
+                <li>El GIL (Global Interpreter Lock) limita el multithreading verdadero</li>
+            </ul>
+        </div>
+
+        <!-- EVALUACIÓN -->
+        <div id="quiz" class="section">
+            <h1>Evaluación de Conocimientos</h1>
+            <p>Responde las siguientes preguntas para verificar lo que has aprendido sobre Python:</p>
+
+            <div class="question">
+                <div class="question-title">1. ¿Quién creó Python?</div>
+                <div class="answer-options">
+                    <label><input type="radio" name="q1" value="a"> a) Linus Torvalds</label>
+                    <label><input type="radio" name="q1" value="b"> b) Guido van Rossum</label>
+                    <label><input type="radio" name="q1" value="c"> c) James Gosling</label>
+                    <label><input type="radio" name="q1" value="d"> d) Dennis Ritchie</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="question-title">2. ¿En qué año se lanzó la primera versión de Python?</div>
+                <div class="answer-options">
+                    <label><input type="radio" name="q2" value="a"> a) 1989</label>
+                    <label><input type="radio" name="q2" value="b"> b) 1991</label>
+                    <label><input type="radio" name="q2" value="c"> c) 1995</label>
+                    <label><input type="radio" name="q2" value="d"> d) 2000</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="question-title">3. ¿Por qué se llama Python?</div>
+                <div class="answer-options">
+                    <label><input type="radio" name="q3" value="a"> a) Por la serpiente pitón</label>
+                    <label><input type="radio" name="q3" value="b"> b) Por Monty Python's Flying Circus</label>
+                    <label><input type="radio" name="q3" value="c"> c) Por el dios griego Pitón</label>
+                    <label><input type="radio" name="q3" value="d"> d) No tiene un origen específico</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="question-title">4. ¿Cuál es una característica principal de Python?</div>
+                <div class="answer-options">
+                    <label><input type="radio" name="q4" value="a"> a) Es muy rápido en ejecución</label>
+                    <label><input type="radio" name="q4" value="b"> b) Tiene sintaxis compleja</label>
+                    <label><input type="radio" name="q4" value="c"> c) Es fácil de leer y escribir</label>
+                    <label><input type="radio" name="q4" value="d"> d) Solo funciona en Windows</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="question-title">5. ¿Python es un lenguaje...?</div>
+                <div class="answer-options">
+                    <label><input type="radio" name="q5" value="a"> a) Compilado</label>
+                    <label><input type="radio" name="q5" value="b"> b) Interpretado</label>
+                    <label><input type="radio" name="q5" value="c"> c) Ensamblador</label>
+                    <label><input type="radio" name="q5" value="d"> d) De bajo nivel</label>
+                </div>
+            </div>
+
+            <button class="check-btn" onclick="checkQuiz()">Verificar Respuestas</button>
+            <div id="quiz-result"></div>
+        </div>
+
+        <!-- EJERCICIOS -->
+        <div id="ejercicios" class="section">
+            <h1>Ejercicios Prácticos</h1>
+
+            <div class="exercise">
+                <h3>Ejercicio 1: Variables y Operaciones</h3>
+                <p>Completa el código para calcular el área de un rectángulo:</p>
+                <div class="code-box"># Calcula el área de un rectángulo
+base = 8
+altura = 5
+area = _____ * _____
+print(f"El área es: {area}")</div>
+                <input type="text" class="exercise-input" id="ex1" placeholder="Escribe: base * altura">
+                <button class="check-btn" onclick="checkExercise(1)">Verificar</button>
+                <div id="result1"></div>
+            </div>
+
+            <div class="exercise">
+                <h3>Ejercicio 2: Condicionales</h3>
+                <p>Completa el código para verificar si un número es positivo:</p>
+                <div class="code-box">numero = 10
+if numero ___ 0:
+    print("El número es positivo")
+else:
+    print("El número es negativo o cero")</div>
+                <input type="text" class="exercise-input" id="ex2" placeholder="Escribe el operador (>, <, ==, etc.)">
+                <button class="check-btn" onclick="checkExercise(2)">Verificar</button>
+                <div id="result2"></div>
+            </div>
+
+            <div class="exercise">
+                <h3>Ejercicio 3: Listas</h3>
+                <p>Completa el código para agregar un elemento a una lista:</p>
+                <div class="code-box">frutas = ["manzana", "banana", "naranja"]
+frutas.___("uva")
+print(frutas)</div>
+                <input type="text" class="exercise-input" id="ex3" placeholder="Escribe el método para agregar">
+                <button class="check-btn" onclick="checkExercise(3)">Verificar</button>
+                <div id="result3"></div>
+            </div>
+
+            <div class="exercise">
+                <h3>Ejercicio 4: Bucles</h3>
+                <p>Completa el código para imprimir números del 1 al 5:</p>
+                <div class="code-box">for i in _____(1, 6):
+    print(i)</div>
+                <input type="text" class="exercise-input" id="ex4" placeholder="Escribe la función para generar números">
+                <button class="check-btn" onclick="checkExercise(4)">Verificar</button>
+                <div id="result4"></div>
+            </div>
+
+            <div class="exercise">
+                <h3>Ejercicio 5: Funciones</h3>
+                <p>Completa el código para definir una función que salude:</p>
+                <div class="code-box">___ saludar(nombre):
+    return f"Hola, {nombre}!"
+
+mensaje = saludar("María")
+print(mensaje)</div>
+                <input type="text" class="exercise-input" id="ex5" placeholder="Escribe la palabra clave para definir funciones">
+                <button class="check-btn" onclick="checkExercise(5)">Verificar</button>
+                <div id="result5"></div>
+            </div>
+        </div>
+    </div>
+    
+        <footer style="text-align: left; padding: 20px; background-color: #03102b; border-top: 1px solid #03102b;">
+        <h1>Creadores:</h1>
+        <h2>Erick Anibal Perez Lima</h2>
+        <h2>Maritza Marlene Presidente Monroy</h2>
+        <h2>Jesus Orlando Gonzales Garcia</h2>
+        <h2>Donald Eduardo Perez Montes</h2>
+         
+    </footer>
+</body>
+</html>
+
